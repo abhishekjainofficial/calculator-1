@@ -4,10 +4,7 @@ int main()
 	int a,b,c=1;
 	printf("Enter the value of a : ");
 	scanf("%d",&a);
-	for(b=1;b<=a;b++)
-	{
+	for(b=0;b<a;b++)
 		c=b*c;
-		
-		
-	} printf("%d",c);
+	printf("%d",c);
 }
